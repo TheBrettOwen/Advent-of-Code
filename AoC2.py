@@ -1,5 +1,6 @@
+#Advent of Code day 2
 #Part 1
-input = open("input2.txt")
+input = open("Input/input2.txt")
 directions = []
 
 depth = 0
@@ -30,7 +31,8 @@ aim = 0
 depth = 0
 horizontal = 0
 
-input2 = open("input2.txt")
+#Part 2
+input2 = open("Input/input2.txt")
 
 for line in input2:
     currentDirection = str(line)

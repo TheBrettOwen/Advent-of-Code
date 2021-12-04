@@ -1,5 +1,6 @@
+#Advent of Code day 1
 #Part 1
-input = open("input.txt")
+input = open("Input/input.txt")
 increases = 0
 numbers= []
 i = 0
@@ -17,7 +18,7 @@ for line in input:
 print("First increases:", increases)
 
 #Part 2
-input = open("input.txt")
+input = open("Input/input.txt")
 increases = 0
 newNumbers= []
 i = 0
